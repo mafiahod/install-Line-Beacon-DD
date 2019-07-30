@@ -23,6 +23,6 @@ echo "cd /home/pi/line-simple-beacon/tools/line-simplebeacon-nodejs-sample/" >> 
 echo "sudo ./simplebeacon.js --hwid=$hardwareId" >> startup.sh
 set -H
 cd /etc
-sed -i 's+exit 0+/home/pi/bin/startup.sh\nexit 0+' rc.local
+sed -i 's+exit 0+/home/pi/startup.sh\nexit 0+' rc.local
 sudo reboot
  
