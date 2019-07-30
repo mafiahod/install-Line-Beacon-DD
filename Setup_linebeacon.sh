@@ -2,8 +2,6 @@
 echo "********Enter hardwareId carefully********" 
 read hardwareId
 cd /home/pi/
-sudo systemctl enable ssh
-sudo systemctl start ssh
 sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
 wget https://nodejs.org/dist/v8.11.3/node-v8.11.3-linux-armv6l.tar.xz
 tar -xvf node-v8.11.3-linux-armv6l.tar.xz
